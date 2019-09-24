@@ -2,48 +2,97 @@ body
 
 {
 
-    
+    font-size: 20px;
 
-    background: url("space.jpg") center center no-repeat fixed;
+    color: black;
 
-    background-size: cover;
+    background-attachment: fixed;
 
-    color: red;
+    background-image: url("space.jpg");
 
-    
-
-    
-
-    
-
-    
+    background-repeat: repeat;
 
 }
 
 
 
-h1, h2, h3
+.day::after
 
 {
 
-    
-
-    color: whitesmoke;
-
-    text-shadow: 2px 2px 4px #000000;
-
-    font-size: 40pt;
-
-    
-
-    
-
-    
-
-    
-
-    
+    content: " " url('alien.jpg');
 
 }
 
+
+
+.title
+
+{
+
+    font-size: 28px;
+
+    color: yellow;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.05em;
+
+    margin-top: 20px;
+
+}
+
+
+
+.header
+
+{
+
+    margin-bottom: 10px;
+
+    height: 200px;
+
+    overflow: hidden;
+
+    position: fixed;
+
+    width: 100%;
+
+    top: 0px;
+
+    border-radius: 10px;
+
+    padding: 0px 20px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+h1
+
+{
+
+    color: black;
+
+    font-size: 40px;
+
+    text-align: center;
+
+    margin-top: 210px;
+
+}
+
+
+
+h3
+
+{
+
+    color: #FF9700;
+
+    text-align: center;
+
+}
 

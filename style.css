@@ -4,7 +4,7 @@ body
 
     font-size: 20px;
 
-    color: black;
+    color: yellow;
 
     background-attachment: fixed;
 
@@ -32,7 +32,7 @@ body
 
     font-size: 28px;
 
-    color: yellow;
+    color: red;
 
     text-transform: uppercase;
 
@@ -64,7 +64,7 @@ body
 
     padding: 0px 20px;
 
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -74,7 +74,7 @@ h1
 
 {
 
-    color: black;
+    color: greenyellow;
 
     font-size: 40px;
 
@@ -96,3 +96,215 @@ h3
 
 }
 
+.grade 
+
+{
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+a
+
+{
+
+    text-decoration: none;
+
+    color: greenyellow;
+
+}
+
+
+
+a:visited
+
+{
+
+    color: cyan;
+
+}
+
+
+
+a:hover
+
+{
+
+    color: lightcyan;
+
+}
+
+
+
+.nav
+
+{
+
+    text-align: center;
+
+    z-index: 1;
+
+}
+
+
+
+.nav>a
+
+{
+
+    text-transform: capitalize;
+
+    margin: 40px;
+
+    color: yellowgreen;
+
+    border-top: 1px solid pink;
+
+}
+
+
+
+.nav>a:hover
+
+{
+
+    border-top: 3px solid greenyellow;
+
+    color: orange;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+[class*="box"]
+
+{
+
+    border-radius: 10px;
+
+    margin: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+    padding: 10px;
+
+    z-index: 0;
+
+    min-height: 120px;
+
+}
+
+
+
+[class*="day-box"]
+
+{
+
+    background-color: rgba(242, 24, 239, 0.3);
+
+    margin-bottom: 20px;
+
+    width: 60%;
+
+}
+
+
+
+[class*="reading-box"]
+
+{
+
+    background-color: rgba(25, 255, 16, 0.5);
+
+}
+
+
+
+[class*="lab-box"]
+
+{
+
+    background-color: rgba(212, 255, 208, 0.5);
+
+}
+
+
+
+[class*="grading-box"]
+
+{
+
+    background-color: rgba(255, 220, 255, 0.5);
+
+}
+
+
+
+[class*="prep-box"]
+
+{
+
+    background-color: rgba(106, 255, 255, 0.5);
+
+    min-height: 120px;
+
+}
+
+
+.reading
+
+{
+
+    float: left;
+
+    display: block;
+
+}
+
+
+
+.assignmentWidget
+
+{
+
+    float: left;
+
+}
+
+
+
+label
+
+{
+
+    display: block;
+
+    margin: 10px;
+
+}
+
+
+
+.person_image
+
+{
+
+    width: 80px;
+
+    height: 110px;
+
+    border-radius: 10px;
+
+}

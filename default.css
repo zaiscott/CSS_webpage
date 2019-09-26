@@ -509,7 +509,7 @@ svg
 
 svg>rect
 {
-    fill: rgba(0, 0, 0, 0.5);
+    fill: rgba(242, 24, 239, 0.3);
 }
 
 .assignment-title
@@ -549,7 +549,7 @@ svg>rect
 
 .assignment_form
 {
-    background-color: rgba(206, 255, 255, 0.5);
+    background-color: rgba(242, 24, 239, 0.3);
 }
 
 .partners

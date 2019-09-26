@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
 body
 
 {
@@ -11,6 +13,8 @@ body
     background-image: url("space.jpg");
 
     background-repeat: repeat;
+    
+    font-family: 'Special Elite', cursive;
 
 }
 
@@ -20,7 +24,7 @@ body
 
 {
 
-    content: " " url('alien.png');
+    content: url('alienDance.gif');
 
 }
 
@@ -64,7 +68,8 @@ body
 
     padding: 0px 20px;
 
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.09);
+    
 
 }
 
@@ -81,6 +86,9 @@ h1
     text-align: center;
 
     margin-top: 210px;
+    
+    font-family: 'Special Elite', cursive;
+
 
 }
 
@@ -93,6 +101,8 @@ h3
     color: #FF9700;
 
     text-align: center;
+    
+    font-family: 'Special Elite', cursive;
 
 }
 
@@ -103,6 +113,8 @@ h3
     text-align: center;
 
     margin-bottom: 20px;
+    
+    font-family: 'Special Elite', cursive;
 
 }
 
@@ -115,6 +127,11 @@ a
     text-decoration: none;
 
     color: greenyellow;
+    
+    font-family: 'Special Elite', cursive;
+    
+    font-weight: bold;
+
 
 }
 
@@ -147,6 +164,9 @@ a:hover
     text-align: center;
 
     z-index: 1;
+    
+    font-family: 'Special Elite', cursive;
+
 
 }
 
@@ -163,6 +183,9 @@ a:hover
     color: yellowgreen;
 
     border-top: 1px solid pink;
+    
+    font-family: 'Special Elite', cursive;
+
 
 }
 
@@ -174,19 +197,9 @@ a:hover
 
     border-top: 3px solid greenyellow;
 
-    color: orange;
+    color: ;
 
 }
-
-
-
-
-
-
-
-
-
-
 
 [class*="box"]
 
@@ -203,6 +216,10 @@ a:hover
     z-index: 0;
 
     min-height: 120px;
+    
+    font-family: 'Special Elite', cursive;
+    
+    overflow: auto;
 
 }
 
@@ -216,7 +233,14 @@ a:hover
 
     margin-bottom: 20px;
 
-    width: 60%;
+    width: 80%;
+    
+    margin: auto;
+    
+    margin-bottom: 20px;
+    
+    font-family: 'Special Elite', cursive;
+
 
 }
 
@@ -227,6 +251,9 @@ a:hover
 {
 
     background-color: rgba(25, 255, 16, 0.5);
+    
+    font-family: 'Special Elite', cursive;
+
 
 }
 
@@ -237,6 +264,9 @@ a:hover
 {
 
     background-color: rgba(212, 255, 208, 0.5);
+    
+    font-family: 'Special Elite', cursive;
+
 
 }
 
@@ -270,6 +300,8 @@ a:hover
     float: left;
 
     display: block;
+    
+    clear: left;
 
 }
 
@@ -307,4 +339,233 @@ label
 
     border-radius: 10px;
 
+}
+
+
+/*LOOK Below */
+
+
+
+
+
+.header~h1:first-of-type
+{
+    margin-top: 220px;
+}
+
+.header~form:first-of-type
+{
+    margin-top: 220px;
+}
+
+.header>.person_info
+{
+    align-content: center;
+}
+
+
+
+.header~h3:first-of-type
+{
+    margin-top: 220px;
+}
+
+
+}
+
+.sound
+{
+    
+    width: 25px;
+    height: 25px;
+}
+
+
+.reading-box
+{
+    background-color: rgba(251, 255, 176, 0.5);
+    clear: left;
+}
+
+.reading-box:hover:before
+{
+    content: url('alienRead.gif');
+    float: right;
+}
+
+.lab-box
+{
+    background-color: rgba(212, 255, 208, 0.5);
+}
+
+.lab-box:hover:after
+{
+    content: url('AlienLab.gif');
+    float: right;
+}
+
+.grading-box
+{
+    background-color: rgba(255, 220, 255, 0.5);
+}
+
+.grading-box:hover:after
+{
+    content: url('alienGrade.gif');
+    float: right;
+}
+
+.prep-box
+{
+    background-color: rgba(206, 255, 255, 0.5);
+}
+
+.prep-box:hover:after
+{
+    content: url('AlienPrep.gif');
+    float: right;
+}
+
+    
+}
+
+.assignmentWidget
+{
+    float: left;
+}
+
+.assignment_title
+{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 0.1em;
+}
+
+
+table
+{
+    margin: auto;
+}
+
+th, td
+{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgba(251, 255, 176, 0.5);
+}
+
+th
+{
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+input
+{
+    font-size: 20px;
+}
+
+rect
+{
+    fill: rgba(212, 255, 208, 0.5);
+}
+
+.input_url
+{
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+iframe
+{
+    height: 80%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.graded-assignment
+{
+    line-height: 20px;
+}
+
+.assignment-label
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+
+.grading-box>.assignment-label
+{
+    float: left;
+}
+
+.account_form
+{
+    text-align: center;
+    background-color: rgba(206, 255, 255, 0.5);
+}
+
+svg
+{
+    margin-top: 220px;
+}
+
+svg>rect
+{
+    fill: rgba(0, 0, 0, 0.5);
+}
+
+.assignment-title
+{
+    margin-top: 220px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.prep-box>.assignment_link>.assignmentWidget>.assignment-title
+{
+    margin: auto;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.lab-box>.assignment_link>.assignmentWidget>.assignment-title
+{
+    margin: auto;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.graded-assignment
+{
+    text-align: center;
+    margin: 10px;
+}
+
+.assignmentWidget>.grade
+{
+    text-align: left;
+}
+
+.assignment_form
+{
+    background-color: rgba(206, 255, 255, 0.5);
+}
+
+.partners
+{
+    position: absolute;
+    top: -25px;
+    left: 250px;
 }

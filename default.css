@@ -558,3 +558,7 @@ svg>rect
     top: -25px;
     left: 250px;
 }
+rect
+{
+    fill:  rgba(242, 24, 239, 0.3);
+
